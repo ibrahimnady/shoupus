@@ -69,9 +69,9 @@ export default function Home() {
                         </div>
                     </div>
                     <div className="col-sm-12 col-md-12  mt-5  ">
-                        <div className='container-fluid'>
+                        <div className='container-fluid '>
                             <div className="row">
-                                <div className='col-sm-12 col-md-3 HM_serves'>
+                                <div className='col-sm-12 col-md-3  HM_serves'>
                                     <i className="fa-solid fa-check me-3 text-warning" />
                                     <p>Quality Product</p>
                                 </div>

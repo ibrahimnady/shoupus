@@ -18,18 +18,20 @@
     background     : rgba(61, 70, 77, 0.5);
     z-index        : 1;
 }
-.HM_serves{
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    margin: 5px;
-    /* margin: 10px; */
+
+.HM_serves {
+    display         : flex;
+    justify-content : start;
+    align-items     : center;
+    margin          : 5px;
     background-color: rgb(215, 224, 224);
-    font-size: 36px;
-    width: 24%;
+    font-size       : 36px;
+    width           : 24%;
+    margin          : auto;
 }
-@media only screen and (max-width: 767px) {
-    .HM_serves{
+
+@media only screen and (max-width: 930px) {
+    .HM_serves {
         width: 100%;
     }
 }
