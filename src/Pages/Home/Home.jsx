@@ -11,7 +11,7 @@ export default function Home() {
             <div className="container-fluid">
                 <div className="row">
                     <div className="col-md-8 mb-2 mt-2">
-                        <div id="carouselExampleCaptions" className="carousel slide " data-bs-ride="false">
+                        <div id="carouselExampleCaptions" className="carousel slide " data-bs-ride="carousel">
                             <div className="carousel-indicators">
                                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
                                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -57,6 +57,36 @@ export default function Home() {
                                 <h6 className='text-white'>20%</h6>
                                 <h3 className='text-white'>head offer</h3>
                                 <button className='btn btn-warning'>Shop</button>
+                            </div>
+                        </div>
+                        <div className="HM_product_offer pt-2">
+                            <img className='HM_img_fluid w-100 ' src={photo_offer2} alt="" />
+                            <div className="HM_offer_text mt-2">
+                                <h6 className='text-white'>20%</h6>
+                                <h3 className='text-white'>head offer</h3>
+                                <button className='btn btn-warning'>Shop</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-sm-12 col-md-12  mt-5  ">
+                        <div className='container-fluid'>
+                            <div className="row">
+                                <div className='col-sm-12 col-md-3 HM_serves'>
+                                    <i className="fa-solid fa-check me-3 text-warning" />
+                                    <p>Quality Product</p>
+                                </div>
+                                <div className='col-sm-12 col-md-3 HM_serves'>
+                                    <i className="fa-solid fa-truck-fast me-3 text-warning" />
+                                    <p>Free Shipping</p>
+                                </div>
+                                <div className='col-sm-12 col-md-3 HM_serves'>
+                                    <i className="fa-solid fa-right-left me-3 text-warning" />
+                                    <p>14-Day Return</p>
+                                </div>
+                                <div className='col-sm-12 col-md-3 HM_serves'>
+                                    <i className="fa-solid fa-headset me-3 text-warning" />
+                                    <p>24/7 Support</p>
+                                </div>
                             </div>
                         </div>
                     </div>
