@@ -1,0 +1,44 @@
+.HM_product_offer {
+    position: relative;
+    overflow: hidden;
+}
+
+.HM_product_offer img {}
+
+.HM_img_fluid:hover {
+    transform        : rotate(20deg);
+    -webkit-transform: rotate(20deg);
+    -moz-transform   : rotate(20deg);
+    -ms-transform    : rotate(20deg);
+    -o-transform     : rotate(20deg);
+}
+
+.HM_offer_text {
+    position        : absolute;
+    width           : 100%;
+    height          : 100%;
+    background-color: rgba(255, 0, 0, 0.144);
+    top             : 0;
+    left            : 0;
+    right           : 0;
+    bottom          : 0;
+    display         : flex;
+    flex-direction  : column;
+    align-items     : center;
+    justify-content : center;
+    background      : rgba(61, 70, 77, 0.5);
+    z-index         : 1;
+}
+
+.HM_offer_text:hover .HM_img_fluid {
+    transform         : rotate(20deg);
+    -webkit-transform : rotate(20deg);
+    -moz-transform    : rotate(20deg);
+    -ms-transform     : rotate(20deg);
+    -o-transform      : rotate(20deg);
+    transition        : 1s all;
+    -webkit-transition: 1s all;
+    -moz-transition   : 1s all;
+    -ms-transition    : 1s all;
+    -o-transition     : 1s all;
+}
