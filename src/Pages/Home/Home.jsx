@@ -6,11 +6,14 @@ import photo_3 from "../../images/carousel-3.jpg"
 import photo_offer1 from "../../images/offer-1.jpg"
 import photo_offer2 from "../../images/offer-2.jpg"
 import Categories from './Categories';
+import FeaturedProducts from './FeaturedProducts'
+import Footer from '../../Components/Footer/Footer'
 export default function Home() {
     return (
         <>
             <div className="container-fluid">
                 <div className="row">
+                    {/* slider product offers */}
                     <div className="col-md-8 mb-2 mt-2">
                         <div id="carouselExampleCaptions" className="carousel slide " data-bs-ride="carousel">
                             <div className="carousel-indicators">
@@ -51,6 +54,7 @@ export default function Home() {
                             </button>
                         </div>
                     </div>
+                    {/* offers and ADS */}
                     <div className="col-md-4 ">
                         <div className="HM_product_offer pt-2">
                             <img className='HM_img_fluid w-100 ' src={photo_offer1} alt="" />
@@ -69,6 +73,7 @@ export default function Home() {
                             </div>
                         </div>
                     </div>
+                    {/* serves site */}
                     <div className="col-sm-12 col-md-12  mt-5  ">
                         <div className='container-fluid '>
                             <div className="row">
@@ -91,11 +96,44 @@ export default function Home() {
                             </div>
                         </div>
                     </div>
+                    {/* section category */}
                     <div className="col-sm-12 col-md-12  mt-5  ">
-                        <Categories/>
+                        <Categories />
+                    </div>
+                    {/* section  FeaturedProducts*/}
+                    <div className="col-sm-12 col-md-12  mt-5  ">
+                        <FeaturedProducts />
+                    </div>
+                    {/* section ads and offers */}
+                    <div className="col-sm-12 col-md-6 ">
+                        <div className="HM_product_offer pt-2">
+                            <img className='HM_img_fluid w-100 ' src={photo_offer1} alt="" />
+                            <div className="HM_offer_text mt-2">
+                                <h6 className='text-white'>20%</h6>
+                                <h3 className='text-white'>head offer</h3>
+                                <button className='btn btn-warning'>Shop</button>
+                            </div>
+                        </div>
+                    </div>
+                    {/* section ads and offers */}
+                    <div className="col-sm-12 col-md-6 ">
+                        <div className="HM_product_offer pt-2">
+                            <img className='HM_img_fluid w-100 ' src={photo_offer1} alt="" />
+                            <div className="HM_offer_text mt-2">
+                                <h6 className='text-white'>20%</h6>
+                                <h3 className='text-white'>head offer</h3>
+                                <button className='btn btn-warning'>Shop</button>
+                            </div>
+                        </div>
+                    </div>
+                    {/* discount products  */}
+                    <div className="col-sm-12 col-md-12  mt-5  ">
+                        <FeaturedProducts />
                     </div>
                 </div>
             </div>
+            {/* footer */}
+            <Footer />
 
         </>
     )
