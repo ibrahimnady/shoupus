@@ -8,13 +8,14 @@ import Home from './Pages/Home/Home';
 function App() {
   return (
     <>
-      <Header />
-      <Routes>
-        <Route path='login' element={<Login />} />
-        <Route path='register' element={<Register />} />
-        <Route path='home' element={<Home />} />
-
-      </Routes>
+      <div className='APP_bg'>
+        <Header />
+        <Routes>
+          <Route path='login' element={<Login />} />
+          <Route path='register' element={<Register />} />
+          <Route path='home' element={<Home />} />
+        </Routes>
+      </div>
 
     </>
   );

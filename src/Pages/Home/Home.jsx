@@ -5,6 +5,7 @@ import photo_2 from "../../images/carousel-2.jpg"
 import photo_3 from "../../images/carousel-3.jpg"
 import photo_offer1 from "../../images/offer-1.jpg"
 import photo_offer2 from "../../images/offer-2.jpg"
+import Categories from './Categories';
 export default function Home() {
     return (
         <>
@@ -89,6 +90,9 @@ export default function Home() {
                                 </div>
                             </div>
                         </div>
+                    </div>
+                    <div className="col-sm-12 col-md-12  mt-5  ">
+                        <Categories/>
                     </div>
                 </div>
             </div>
