@@ -8,7 +8,6 @@ export default function Login() {
                 <form action="">
                     <h1 className='mb-5 mt-5  text-warning'> Sign In</h1>
                     <div className="row">
-
                         <div className="col-sm-12 col-md-6 ">
                             <div className="form-floating mb-3">
                                 <input type="email" className="form-control" id="Email" placeholder='Email' />

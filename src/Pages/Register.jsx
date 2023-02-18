@@ -5,6 +5,7 @@ export default function Register() {
     return (
         <>
             <div className=' container RG_form  text-center'>
+                
                 <form action="">
                     <h1 className='mb-5 mt-5  text-warning'> Sign Up</h1>
                     <div className="row">
