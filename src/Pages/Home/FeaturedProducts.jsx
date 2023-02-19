@@ -8,6 +8,7 @@ import Product_5 from "../../images/product-5.jpg"
 import Product_6 from "../../images/product-6.jpg"
 import Product_7 from "../../images/product-7.jpg"
 import Product_8 from "../../images/product-8.jpg"
+import { Link } from 'react-router-dom';
 
 export default function FeaturedProducts() {
     return (
@@ -23,7 +24,7 @@ export default function FeaturedProducts() {
                                 <i className="fa-regular fa-heart btn btn-outline-danger fs-1" />
                             </div>
                             <div className='text-center bg-white w-100'>
-                                <h2>Product Name</h2>
+                                <h2><Link to="productdetails">Name product</Link></h2>
                                 <h3>price </h3>
                                 <span><i className="fa-solid fa-star text-warning" /></span>
                             </div>
@@ -37,7 +38,7 @@ export default function FeaturedProducts() {
                                 <i className="fa-regular fa-heart btn btn-outline-danger fs-1" />
                             </div>
                             <div className='text-center bg-white w-100'>
-                                <h2>Product Name</h2>
+                                <h2><Link to="productdetails">Name product</Link></h2>
                                 <h3>price </h3>
                                 <span><i className="fa-solid fa-star text-warning" /></span>
                             </div>
@@ -51,7 +52,7 @@ export default function FeaturedProducts() {
                                 <i className="fa-regular fa-heart btn btn-outline-danger fs-1" />
                             </div>
                             <div className='text-center bg-white w-100'>
-                                <h2>Product Name</h2>
+                                <h2><Link to="productdetails">Name product</Link></h2>
                                 <h3>price </h3>
                                 <span><i className="fa-solid fa-star text-warning" /></span>
                             </div>
@@ -65,7 +66,7 @@ export default function FeaturedProducts() {
                                 <i className="fa-regular fa-heart btn btn-outline-danger fs-1" />
                             </div>
                             <div className='text-center bg-white w-100'>
-                                <h2>Product Name</h2>
+                                <h2><Link to="productdetails">Name product</Link></h2>
                                 <h3>price </h3>
                                 <span><i className="fa-solid fa-star text-warning" /></span>
                             </div>
@@ -79,7 +80,7 @@ export default function FeaturedProducts() {
                                 <i className="fa-regular fa-heart btn btn-outline-danger fs-1" />
                             </div>
                             <div className='text-center bg-white w-100'>
-                                <h2>Product Name</h2>
+                                <h2><Link to="productdetails">Name product</Link></h2>
                                 <h3>price </h3>
                                 <span><i className="fa-solid fa-star text-warning" /></span>
                             </div>
@@ -93,7 +94,7 @@ export default function FeaturedProducts() {
                                 <i className="fa-regular fa-heart btn btn-outline-danger fs-1" />
                             </div>
                             <div className='text-center bg-white w-100'>
-                                <h2>Product Name</h2>
+                                <h2><Link to="productdetails">Name product</Link></h2>
                                 <h3>price </h3>
                                 <span><i className="fa-solid fa-star text-warning" /></span>
                             </div>
@@ -107,7 +108,7 @@ export default function FeaturedProducts() {
                                 <i className="fa-regular fa-heart btn btn-outline-danger fs-1" />
                             </div>
                             <div className='text-center bg-white w-100'>
-                                <h2>Product Name</h2>
+                                <h2><Link to="productdetails">Name product</Link></h2>
                                 <h3>price </h3>
                                 <span><i className="fa-solid fa-star text-warning" /></span>
                             </div>
@@ -121,7 +122,7 @@ export default function FeaturedProducts() {
                                 <i className="fa-regular fa-heart btn btn-outline-danger fs-1" />
                             </div>
                             <div className='text-center bg-white w-100'>
-                                <h2>Product Name</h2>
+                                <h2><Link to="productdetails">Name product</Link></h2>
                                 <h3>price </h3>
                                 <span><i className="fa-solid fa-star text-warning" /></span>
                             </div>

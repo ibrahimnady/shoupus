@@ -25,6 +25,7 @@
 
 .FB_cart_product:hover img {
     opacity: 0.3;
+    box-shadow: 5px 5px 10px 10px #888888;
 }
 
 .FB_cart_product:hover .FB_overly {
