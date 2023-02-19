@@ -1,9 +1,9 @@
 import React from 'react'
-import '../../Styles/Categories.css'
-import cat_1 from "../../images/cat-1.jpg"
-import cat_2 from "../../images/cat-2.jpg"
-import cat_3 from "../../images/cat-3.jpg"
-import cat_4 from "../../images/cat-4.jpg"
+import '../Styles/Categories.css'
+import cat_1 from "../images/cat-1.jpg"
+import cat_2 from "../images/cat-2.jpg"
+import cat_3 from "../images/cat-3.jpg"
+import cat_4 from "../images/cat-4.jpg"
 export default function Categories() {
     return (
         <>

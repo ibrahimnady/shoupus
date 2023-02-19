@@ -25,6 +25,9 @@ export default function Login() {
                         <div className="col-sm-12 col-md-12 ">
                             <button type="submit" className="btn btn-primary p-3 w-100">Login</button>
                         </div>
+                        <div className="col-sm-12 col-md-12 mt-3">
+                            <button type="submit" className="btn btn-danger p-3 w-100"> Login By Gmail</button>
+                        </div>
                     </div>
                 </form>
             </div>

@@ -1,13 +1,13 @@
 import React from 'react'
-import '../../Styles/Home.css'
-import photo_1 from "../../images/carousel-1.jpg"
-import photo_2 from "../../images/carousel-2.jpg"
-import photo_3 from "../../images/carousel-3.jpg"
-import photo_offer1 from "../../images/offer-1.jpg"
-import photo_offer2 from "../../images/offer-2.jpg"
-import Categories from './Categories';
+import '../Styles/Home.css'
+import photo_1 from "../images/carousel-1.jpg"
+import photo_2 from "../images/carousel-2.jpg"
+import photo_3 from "../images/carousel-3.jpg"
+import photo_offer1 from "../images/offer-1.jpg"
+import photo_offer2 from "../images/offer-2.jpg"
+import Categories from './Categories'
 import FeaturedProducts from './FeaturedProducts'
-import Footer from '../../Components/Footer/Footer'
+import DiscountProduct from './DiscountProduct'
 export default function Home() {
     return (
         <>
@@ -128,12 +128,10 @@ export default function Home() {
                     </div>
                     {/* discount products  */}
                     <div className="col-sm-12 col-md-12  mt-5  ">
-                        <FeaturedProducts />
+                        <DiscountProduct />
                     </div>
                 </div>
             </div>
-            {/* footer */}
-            <Footer />
 
         </>
     )

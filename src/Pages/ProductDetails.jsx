@@ -6,8 +6,7 @@ import Product_3 from "../images/product-3.jpg"
 import User from "../images/user.jpg"
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
-import FeaturedProducts from './Home/FeaturedProducts';
-import Footer from './../Components/Footer/Footer';
+import FeaturedProducts from './FeaturedProducts';
 
 export default function ProductDetails() {
     return (
@@ -40,7 +39,12 @@ export default function ProductDetails() {
                     <div className="col-sm-12 col-md-6 mt-5 ">
                         <div className=" bg-white p-3 h-100">
                             <h1>Product Name Goes Here</h1>
-                            <span><i className="fa-solid fa-star"></i></span>
+                            <span>
+                                <i className="fa-solid fa-star text-warning" />
+                                <i className="fa-solid fa-star text-warning" />
+                                <i className="fa-solid fa-star text-warning" />
+                                <i className="fa-solid fa-star text-warning" />
+                            </span>
                             <h2 className='fw-bold mt-5 mb-3'>price</h2>
                             <span className=' fw-bold'>Description : </span> <p className='d-inline  mb-5'>Volup erat ipsum diam elitr rebum et dolor. Est nonumy elitr erat diam stet sit clita ea. Sanc ipsum et, labore clita lorem magna duo dolor no sea Nonumy</p>
                             <div className='mt-5'>
@@ -165,7 +169,7 @@ export default function ProductDetails() {
                     </div>
                 </div>
             </div>
-            <Footer />
+
         </>
     )
 }

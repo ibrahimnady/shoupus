@@ -8,23 +8,17 @@ export default function Register() {
             <div className=' container RG_form  text-center'>
                 <form action="">
                     <h1 className='mb-5 mt-5  text-warning'> Sign Up</h1>
-                    <div className="d-flex flex-row justify-content-center mb-5">
+                    <div className="d-flex flex-row justify-content-center mb-3">
                         <div className="image">
                             <img src={file ? URL.createObjectURL(file) : "https://i.imgur.com/hczKIze.jpg"} className="rounded-circle" alt="" />
                             <span>
                                 <i className='bx bxs-camera-plus' />
                             </span>
-                        </div>
-                        <div className="d-flex flex-column ms-3 text-white">
-                            <h4 className="mb-0">client Name</h4>
-                            <div className="ratings">
-                                <span>4.0</span>
-                                <i className='bx bx-star ms-1'></i>
-                            </div>
-                            <span>Pro Member</span>
-                            <div className="formInput">
-                                <label htmlFor="file"> Image<i className="fa-solid fa-upload icon" /></label>
-                                <input type="file" id="file" onChange={e => setFile(e.target.files[0])} style={{ display: "none" }} />
+                            <div className="d-flex flex-column ms-3 text-center mb-5 mt-3">
+                                <div className="formInput">
+                                    <label htmlFor="file" className=' text-white'> Image<i className="fa-solid fa-upload icon text-primary ms-2" /></label>
+                                    <input type="file" id="file" onChange={e => setFile(e.target.files[0])} style={{ display: "none" }} />
+                                </div>
                             </div>
                         </div>
                     </div>
