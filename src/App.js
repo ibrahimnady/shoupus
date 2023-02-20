@@ -8,6 +8,7 @@ import ProductDetails from './Pages/ProductDetails';
 import Profile from './Pages/Profile';
 import Products from './Pages/Products';
 import Footer from './Components/Footer/Footer';
+import Page404 from './Pages/Page404';
 
 function App() {
   return (
@@ -15,6 +16,8 @@ function App() {
       <div className='APP_bg'>
         <Header />
         <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='*' element={<Page404 />} />
           <Route path='login' element={<Login />} />
           <Route path='products' element={<Products />} />
           <Route path='register' element={<Register />} />
