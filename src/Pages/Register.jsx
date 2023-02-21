@@ -16,7 +16,7 @@ export default function Register() {
                             </span>
                             <div className="d-flex flex-column ms-3 text-center mb-5 mt-3">
                                 <div className="formInput">
-                                    <label htmlFor="file" className=' text-white'> Image<i className="fa-solid fa-upload icon text-primary ms-2" /></label>
+                                    <label htmlFor="file" className=' text-white'>Add Image<i className="fa-solid fa-upload icon text-primary ms-2" /></label>
                                     <input type="file" id="file" onChange={e => setFile(e.target.files[0])} style={{ display: "none" }} />
                                 </div>
                             </div>
@@ -41,7 +41,7 @@ export default function Register() {
                                 <label htmlFor="phone">phone</label>
                             </div>
                         </div>
-                        <div className="col-sm-12 col-md-3 ">
+                        <div className="col-sm-12 col-md-5 ">
                             <div className="form-floating mb-3">
                                 <input type="text" className="form-control" id="Address" placeholder='Address' />
                                 <label htmlFor="Address">Address</label>
@@ -66,13 +66,7 @@ export default function Register() {
                                 <option value="2">female</option>
                             </select>
                         </div>
-                        <div className="col-sm-12 col-md-2 ">
-                            <select className="form-select p-3 mb-3" aria-label="Default select example">
-                                <option disabled selected>Role</option>
-                                <option value="1">seller</option>
-                                <option value="2">customer</option>
-                            </select>
-                        </div>
+                        
                         <div className="col-sm-12 col-md-4 ">
                             <div className="form-floating mb-3">
                                 <input type="password" className="form-control" id="Password" placeholder='Password' />

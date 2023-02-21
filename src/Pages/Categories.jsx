@@ -13,84 +13,84 @@ export default function Categories() {
                     <div className="col-sm-12 col-md-3 CG_gategories mb-5  ">
                         <img className='' src={cat_1} alt="" />
                         <div className='CG_gategory_text'>
-                            <h3>category name</h3>
+                            <h3>Type Products</h3>
                             <span>count product</span>
                         </div>
                     </div>
                     <div className="col-sm-12 col-md-3 CG_gategories mb-5  ">
                         <img className='' src={cat_2} alt="" />
                         <div className='CG_gategory_text'>
-                            <h3>category name</h3>
+                            <h3>Type Products</h3>
                             <span>count product</span>
                         </div>
                     </div>
                     <div className="col-sm-12 col-md-3 CG_gategories mb-5  ">
                         <img className='' src={cat_3} alt="" />
                         <div className='CG_gategory_text'>
-                            <h3>category name</h3>
+                            <h3>Type Products</h3>
                             <span>count product</span>
                         </div>
                     </div>
                     <div className="col-sm-12 col-md-3 CG_gategories mb-5  ">
                         <img className='' src={cat_4} alt="" />
                         <div className='CG_gategory_text'>
-                            <h3>category name</h3>
+                            <h3>Type Products</h3>
                             <span>count product</span>
                         </div>
                     </div>
                     <div className="col-sm-12 col-md-3 CG_gategories mb-5  ">
                         <img className='' src={cat_1} alt="" />
                         <div className='CG_gategory_text'>
-                            <h3>category name</h3>
+                            <h3>Type Products</h3>
                             <span>count product</span>
                         </div>
                     </div>
                     <div className="col-sm-12 col-md-3 CG_gategories mb-5  ">
                         <img className='' src={cat_2} alt="" />
                         <div className='CG_gategory_text'>
-                            <h3>category name</h3>
+                            <h3>Type Products</h3>
                             <span>count product</span>
                         </div>
                     </div>
                     <div className="col-sm-12 col-md-3 CG_gategories mb-5  ">
                         <img className='' src={cat_3} alt="" />
                         <div className='CG_gategory_text'>
-                            <h3>category name</h3>
+                            <h3>Type Products</h3>
                             <span>count product</span>
                         </div>
                     </div>
                     <div className="col-sm-12 col-md-3 CG_gategories mb-5  ">
                         <img className='' src={cat_4} alt="" />
                         <div className='CG_gategory_text'>
-                            <h3>category name</h3>
+                            <h3>Type Products</h3>
                             <span>count product</span>
                         </div>
                     </div>
                     <div className="col-sm-12 col-md-3 CG_gategories mb-5  ">
                         <img className='' src={cat_1} alt="" />
                         <div className='CG_gategory_text'>
-                            <h3>category name</h3>
+                            <h3>Type Products</h3>
                             <span>count product</span>
                         </div>
                     </div>
                     <div className="col-sm-12 col-md-3 CG_gategories mb-5  ">
                         <img className='' src={cat_2} alt="" />
                         <div className='CG_gategory_text'>
-                            <h3>category name</h3>
+                            <h3>Type Products</h3>
                             <span>count product</span>
                         </div>
                     </div>
                     <div className="col-sm-12 col-md-3 CG_gategories mb-5  ">
                         <img className='' src={cat_3} alt="" />
                         <div className='CG_gategory_text'>
-                            <h3>category name</h3>
+                            <h3>Type Products</h3>
                             <span>count product</span>
                         </div>
                     </div>
                     <div className="col-sm-12 col-md-3 CG_gategories mb-5  ">
                         <img className='' src={cat_4} alt="" />
                         <div className='CG_gategory_text'>
-                            <h3>category name</h3>
+                            <h3>Type Products</h3>
                             <span>count product</span>
                         </div>
                     </div>

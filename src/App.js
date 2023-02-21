@@ -18,12 +18,13 @@ function App() {
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='*' element={<Page404 />} />
-          <Route path='login' element={<Login />} />
-          <Route path='products' element={<Products />} />
-          <Route path='register' element={<Register />} />
-          <Route path='home' element={<Home />} />
-          <Route path='home/productdetails' element={<ProductDetails />} />
-          <Route path='profile' element={<Profile />} />
+          <Route path='/login' element={<Login />} />
+          <Route path='/products' element={<Products />} />
+          <Route path='/register' element={<Register />} />
+          <Route path='/home' element={<Home />} />
+          <Route path='/productdetails' element={<ProductDetails />} />
+          <Route path='/home/productdetails' element={<ProductDetails />} />
+          <Route path='/profile' element={<Profile />} />
         </Routes>
         <Footer />
       </div>

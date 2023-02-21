@@ -27,12 +27,12 @@ export default function Profile() {
                             </div>
                             <span>Pro Member</span>
                             <div className="formInput">
-                                <label htmlFor="file"> Image<i className="fa-solid fa-upload icon text-primary ms-2" /></label>
+                                <label htmlFor="file">Change Image<i className="fa-solid fa-upload icon text-primary ms-2" /></label>
                                 <input type="file" id="file" onChange={e => setFile(e.target.files[0])} style={{ display: "none" }} />
                             </div>
                         </div>
                     </div>
-                    <h4 className='text-center'>Your Profile</h4>
+                    <h4 className='text-center fw-bold'>Your Profile</h4>
                     <div className="row">
                         <div className="col-md-6">
                             <div className="inputs">
@@ -58,18 +58,13 @@ export default function Profile() {
                                 <input className="form-control" type="text" placeholder="Country" />
                             </div>
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-md-6 m-auto text-center mt-3">
                             <div className="inputs">
                                 <label>Phone</label>
                                 <input className="form-control" type="number" placeholder="Phone" />
                             </div>
                         </div>
-                        <div className="col-md-6">
-                            <div className="inputs">
-                                <label>Count Product </label>
-                                <input className="form-control" type="number" placeholder="Count Product" />
-                            </div>
-                        </div>
+                        
 
                     </div>
                     <div className="mt-3 gap-2 d-flex justify-content-end">
