@@ -1,4 +1,5 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import 'aos/dist/aos.css'
 import '../Styles/Home.css'
 import photo_1 from "../images/carousel-1.jpg"
 import photo_2 from "../images/carousel-2.jpg"
@@ -8,14 +9,18 @@ import photo_offer2 from "../images/offer-2.jpg"
 import Categories from './Categories'
 import FeaturedProducts from './FeaturedProducts'
 import DiscountProduct from './DiscountProduct'
+import Aos from 'aos'
 export default function Home() {
+    useEffect(() => {
+        Aos.init({ duration: 2000 });
+    }, []);
     return (
         <>
             <div className="container-fluid">
                 <div className="row">
                     {/* slider product offers */}
-                    <div className="col-md-8 mb-2 mt-2">
-                        <div id="carouselExampleCaptions" className="carousel slide " data-bs-ride="carousel">
+                    <div className="col-md-8 mb-2 mt-2" data-aos="fade-right">
+                        <div id="carouselExampleCaptions" className="carousel slide " data-bs-ride="carousel" >
                             <div className="carousel-indicators">
                                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
                                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -55,7 +60,7 @@ export default function Home() {
                         </div>
                     </div>
                     {/* offers and ADS */}
-                    <div className="col-md-4 ">
+                    <div className="col-md-4 " data-aos="fade-left">
                         <div className="HM_product_offer pt-2">
                             <img className='HM_img_fluid w-100 ' src={photo_offer1} alt="" />
                             <div className="HM_offer_text mt-2">
@@ -74,7 +79,7 @@ export default function Home() {
                         </div>
                     </div>
                     {/* serves site */}
-                    <div className="col-sm-12 col-md-12  mt-5  ">
+                    <div className="col-sm-12 col-md-12  mt-5  " data-aos="fade-down">
                         <div className='container-fluid '>
                             <div className="row">
                                 <div className='col-sm-12 col-md-3  HM_serves'>
@@ -97,15 +102,15 @@ export default function Home() {
                         </div>
                     </div>
                     {/* section category */}
-                    <div className="col-sm-12 col-md-12  mt-5  ">
+                    <div className="col-sm-12 col-md-12  mt-5 " data-aos="zoom-out">
                         <Categories />
                     </div>
                     {/* section  FeaturedProducts*/}
-                    <div className="col-sm-12 col-md-12  mt-5  ">
+                    <div className="col-sm-12 col-md-12  mt-5 " data-aos="zoom-in">
                         <FeaturedProducts />
                     </div>
                     {/* section ads and offers */}
-                    <div className="col-sm-12 col-md-6 ">
+                    <div className="col-sm-12 col-md-6 " data-aos="flip-right">
                         <div className="HM_product_offer pt-2">
                             <img className='HM_img_fluid w-100 ' src={photo_offer1} alt="" />
                             <div className="HM_offer_text mt-2">
@@ -116,7 +121,7 @@ export default function Home() {
                         </div>
                     </div>
                     {/* section ads and offers */}
-                    <div className="col-sm-12 col-md-6 ">
+                    <div className="col-sm-12 col-md-6 " data-aos="flip-left">
                         <div className="HM_product_offer pt-2">
                             <img className='HM_img_fluid w-100 ' src={photo_offer1} alt="" />
                             <div className="HM_offer_text mt-2">
@@ -127,7 +132,7 @@ export default function Home() {
                         </div>
                     </div>
                     {/* discount products  */}
-                    <div className="col-sm-12 col-md-12  mt-5  ">
+                    <div className="col-sm-12 col-md-12  mt-5  " data-aos="zoom-in">
                         <DiscountProduct />
                     </div>
                 </div>

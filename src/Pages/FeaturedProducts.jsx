@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import '../Styles/FeaturedProducts.css'
 import Product_1 from "../images/product-1.jpg"
 import Product_2 from "../images/product-2.jpg"
@@ -10,13 +10,15 @@ import Product_7 from "../images/product-7.jpg"
 import Product_8 from "../images/product-8.jpg"
 import { Link } from 'react-router-dom';
 
+
 export default function FeaturedProducts() {
+    
     return (
         <>
             <h2 className='mb-5 fs-1 text-center'> FEATURED PRODUCTS </h2>
             <div className='container-fluid '>
-                <div className="row">
-                    <div className="col-sm-12 col-md-3  mb-5  ">
+                <div className="row" >
+                    <div className="col-sm-12 col-md-3  mb-5 " >
                         <Link to="productdetails">
                             <div className='FB_cart_product'>
                                 <img src={Product_1} className="w-100" alt="" />
