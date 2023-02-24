@@ -29,7 +29,7 @@ export default function DiscountProduct() {
                                 <div className='text-center bg-white w-100'>
                                     <h2>Name product</h2>
                                     <h3>price Before</h3>
-                                    <h4 className=' text-secondary'>Price after</h4>
+                                    <h4 className=' text-secondary DS_del'> Price after</h4>
                                     <span><i className="fa-solid fa-star text-warning" /></span>
                                 </div>
                             </div>
@@ -49,7 +49,7 @@ export default function DiscountProduct() {
                                 <div className='text-center bg-white w-100'>
                                     <h2>Name product</h2>
                                     <h3>price Before</h3>
-                                    <h4 className=' text-secondary'>Price after</h4>
+                                    <h4 className=' text-secondary DS_del'> Price after</h4>
                                     <span><i className="fa-solid fa-star text-warning" /></span>
                                 </div>
                             </div>
@@ -69,7 +69,7 @@ export default function DiscountProduct() {
                                 <div className='text-center bg-white w-100'>
                                     <h2>Name product</h2>
                                     <h3>price Before</h3>
-                                    <h4 className=' text-secondary'>Price after</h4>
+                                    <h4 className=' text-secondary DS_del'> Price after</h4>
                                     <span><i className="fa-solid fa-star text-warning" /></span>
                                 </div>
                             </div>
@@ -89,7 +89,7 @@ export default function DiscountProduct() {
                                 <div className='text-center bg-white w-100'>
                                     <h2>Name product</h2>
                                     <h3>price Before</h3>
-                                    <h4 className=' text-secondary'>Price after</h4>
+                                    <h4 className=' text-secondary DS_del'> Price after</h4>
                                     <span><i className="fa-solid fa-star text-warning" /></span>
                                 </div>
                             </div>
@@ -109,7 +109,7 @@ export default function DiscountProduct() {
                                 <div className='text-center bg-white w-100'>
                                     <h2>Name product</h2>
                                     <h3>price Before</h3>
-                                    <h4 className=' text-secondary'>Price after</h4>
+                                    <h4 className=' text-secondary DS_del'> Price after</h4>
                                     <span><i className="fa-solid fa-star text-warning" /></span>
                                 </div>
                             </div>
@@ -129,7 +129,7 @@ export default function DiscountProduct() {
                                 <div className='text-center bg-white w-100'>
                                     <h2>Name product</h2>
                                     <h3>price Before</h3>
-                                    <h4 className=' text-secondary'>Price after</h4>
+                                    <h4 className=' text-secondary DS_del'> Price after</h4>
                                     <span><i className="fa-solid fa-star text-warning" /></span>
                                 </div>
                             </div>
@@ -149,7 +149,7 @@ export default function DiscountProduct() {
                                 <div className='text-center bg-white w-100'>
                                     <h2>Name product</h2>
                                     <h3>price Before</h3>
-                                    <h4 className=' text-secondary'>Price after</h4>
+                                    <h4 className=' text-secondary DS_del'> Price after</h4>
                                     <span><i className="fa-solid fa-star text-warning" /></span>
                                 </div>
                             </div>
@@ -169,7 +169,7 @@ export default function DiscountProduct() {
                                 <div className='text-center bg-white w-100'>
                                     <h2>Name product</h2>
                                     <h3>price Before</h3>
-                                    <h4 className=' text-secondary'>Price after</h4>
+                                    <h4 className=' text-secondary DS_del'> Price after</h4>
                                     <span><i className="fa-solid fa-star text-warning" /></span>
                                 </div>
                             </div>

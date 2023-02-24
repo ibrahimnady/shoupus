@@ -42,7 +42,7 @@ export default function Footer() {
                             <div className="mt-5">
                                 <h2 className=' text-warning'>MY ACCOUNT</h2>
                                 <ul>
-                                    <li><Link to="profile">Profile</Link></li>
+                                    <li className=' text-white'><Link to="profile">Profile</Link></li>
                                     <li>liked</li>
                                 </ul>
                             </div>

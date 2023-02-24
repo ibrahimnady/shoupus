@@ -45,3 +45,6 @@
 .DS_cart_product:hover .DS_overly {
     opacity: 1;
 }
+.DS_del{
+    text-decoration: line-through;
+}

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import '../Styles/ProductDetails.css'
 import Product_1 from "../images/product-1.jpg"
 import Product_2 from "../images/product-2.jpg"
@@ -7,13 +7,18 @@ import User from "../images/user.jpg"
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
 import FeaturedProducts from './FeaturedProducts';
+import 'aos/dist/aos.css'
+import Aos from 'aos'
 
 export default function ProductDetails() {
+    useEffect(() => {
+        Aos.init({ duration: 2000 });
+    }, []);
     return (
         <>
             <div className="container-fluid">
                 <div className="row">
-                    <div className="col-sm-12 col-md-5 mt-5">
+                    <div className="col-sm-12 col-md-5 mt-5" data-aos="fade-right">
                         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
@@ -36,7 +41,7 @@ export default function ProductDetails() {
                             </button>
                         </div>
                     </div>
-                    <div className="col-sm-12 col-md-6 mt-5 ">
+                    <div className="col-sm-12 col-md-6 mt-5 " data-aos="fade-left">
                         <div className=" bg-white p-3 h-100">
                             <h1>Product Name Goes Here</h1>
                             <span>
@@ -91,7 +96,7 @@ export default function ProductDetails() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-sm-12 col-md-12 mt-5 ">
+                    <div className="col-sm-12 col-md-12 mt-5 " data-aos="fade-down">
                         <div className=" bg-white p-3 ">
                             <Tabs defaultActiveKey="Description" id="uncontrolled-tab-example" className="mb-3">
                                 <Tab eventKey="Description" title="Description">
@@ -138,25 +143,28 @@ export default function ProductDetails() {
                                                         <i class="fa-regular fa-star" />
                                                     </span>
                                                 </div>
-                                                <div className='mt-3'>
-                                                    <span className='fw-bold'>Your Review  : </span>
-                                                    <div className=''>
-                                                        <textarea className='border border-primary' name="" id="" cols="30" rows="5" />
+                                                <form name="sentMessage" id="contactForm" noValidate="novalidate">
+                                                    <div className="control-group mt-3">
+                                                        <input type="text" className="form-control" id="name" placeholder="Your Name"
+                                                            required="required" data-validation-required-message="Please enter your name" />
+                                                        <p className="help-block text-danger"></p>
                                                     </div>
-                                                </div>
-                                                <div className='mt-2 fw-bold'>
-                                                    <span>Your Name  : </span>
-                                                    <div className=''>
-                                                        <input className=' border border-primary' type="text" />
+                                                    <div className="control-group">
+                                                        <input type="email" className="form-control" id="email" placeholder="Your Email"
+                                                            required="required" data-validation-required-message="Please enter your email" />
+                                                        <p className="help-block text-danger"></p>
                                                     </div>
-                                                </div>
-                                                <div className='mt-2 fw-bold'>
-                                                    <span>Your Email  : </span>
-                                                    <div className=''>
-                                                        <input className=' border border-primary' type="email" />
+                                                    <div className="control-group">
+                                                        <textarea className="form-control" rows="8" id="message" placeholder="Message"
+                                                            required="required"
+                                                            data-validation-required-message="Please enter your message"></textarea>
+                                                        <p className="help-block text-danger"></p>
                                                     </div>
-                                                </div>
-                                                <button className=' mt-5 btn btn-warning fw-bold'>Leave Your Review</button>
+                                                    <div>
+                                                        <button className=" py-2 px-4 border rounded-pill" type="submit" id="sendMessageButton">
+                                                            Send  Message</button>
+                                                    </div>
+                                                </form>
                                             </div>
                                         </div>
                                     </div>
@@ -164,7 +172,7 @@ export default function ProductDetails() {
                             </Tabs>
                         </div>
                     </div>
-                    <div className="col-sm-12 col-md-12 mt-5 ">
+                    <div className="col-sm-12 col-md-12 mt-5 " data-aos="zoom-out">
                         <FeaturedProducts />
                     </div>
                 </div>
