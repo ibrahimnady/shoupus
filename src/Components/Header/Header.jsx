@@ -5,45 +5,9 @@ import user from '../../images/client-1.png'
 export default function Header() {
     return (
         <>
-            {/* <!-- Topbar start --> */}
+            {/* <!-- Navbar start --> */}
 
-            <div className="header1 py-1 ">
-                <div className="container-fluid">
-                    <div className="row  py-1 px-xl-5">
-                        <div className="col-lg-6 d-none d-lg-block">
-                            <div className="d-fle">
-                                <Link className="text-body mr-3" to={'About'}>About</Link>
-                                <Link className="text-body mr-3" to={'Contact'}>Contact</Link>
-                                <Link className="text-body mr-3" to={'home'}>Help</Link>
-                                <Link className="text-body mr-3" to={'FAQs'}>FAQs</Link>
-                            </div>
-                        </div>
-                        <div className="col-lg-6 text-end text-lg-right">
-
-
-                            <div className="dropdown ">
-                                <button className="bg-white  dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                                    My Account
-                                </button>
-                                <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                    <li><Link className="dropdown-item" to={"register"} >signup </Link> </li>
-                                    <li><Link className="dropdown-item" to={"login"}> login</Link></li>
-                                    <li><Link className="dropdown-item" to={"logout"}> logout</Link></li>
-                                </ul>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            {/* <!-- Topbar end --> */}
-
-
-            {/* <!-- Navbar startx` --> */}
-
-
-            <div className=' container-fluid bg-white   py-4  '>
+            <div className=' container-fluid bg-white py-4  '>
                 <div className='row '>
                     <div className="col-md-4 text-center">
                         <Link className="h_logo navbar-brand " to={'home'}>
@@ -56,21 +20,24 @@ export default function Header() {
                         <div className="h_serch m-auto w-75">
                             <div className="input-group mb-3 text-center">
                                 <input type="text" className="form-control" placeholder="Search for products" aria-label="Recipient's username" aria-describedby="button-addon2" />
-                                <button className="sr_style text_logo" type="button" id="button-addon2"><i className="fa-solid fa-magnifying-glass"></i>
+                                <button className="sr_style text_logo bg-black btn btn-dark" type="button" id="button-addon2">
+                                    <i className="fa-solid fa-magnifying-glass" />
                                 </button>
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-3 text-lg-end text-sm-center  text-md-center   ">
-                        <Link to="profile">
-                            <div className="h_cs  ">
+
+                    <div className="col-md-3 text-lg-end text-sm-center  text-md-center H_profile ">
+                        <div className="h_cs">
+                            <Link to="profile">
                                 <img src={user} className=' user me-2 ' alt="" />
-                                <p className='fw-bold mb-0 '>clint name</p>
-                            </div>
-                        </Link>
+                                <p className='fw-bold mb-0 '>Client Name</p>
+                            </Link>
+                        </div>
                     </div>
                 </div>
             </div>
+
             <nav className="navbar navbar-dark bg-secondary navbar-expand-lg  mb-4">
                 <div className="container-fluid m-0  ">
                     <div className="dropdown ">
@@ -80,13 +47,13 @@ export default function Header() {
                             </div>
                         </button>
                         <ul className="dropdown-menu menu_style" aria-labelledby="dropdownMenuButton1">
-                            <li> <Link className="dropdown-item dropdown-toggle menu_item py-2 fw-bold " to={"Dresses"}>Dresses </Link></li>
-                            <li><Link className="dropdown-item dropdown-toggle menu_item py-2 fw-bold " to={"Shirts"}>Shirts</Link></li>
-                            <li><Link className="dropdown-item dropdown-toggle menu_item py-2 fw-bold " to={"Jeans"}>Jeans</Link></li>
-                            <li><Link className="dropdown-item dropdown-toggle menu_item py-2 fw-bold " to={"Swimwear"}>Swimwear</Link></li>
-                            <li><Link className="dropdown-item dropdown-toggle menu_item py-2 fw-bold " to={"Sportswear"}>Sportswear</Link></li>
-                            <li><Link className="dropdown-item dropdown-toggle menu_item py-2 fw-bold " to={"Blazers"}>Blazers</Link></li>
-                            <li><Link className="dropdown-item dropdown-toggle fw-bold   py-2" data-bs-toggle="dropdown" to={"Shoes"}>Shoes</Link></li>
+                            <Link className="H_li py-2 fw-bold " to={"Dresses"}><li className='ms-3 mt-3'>Dresses </li></Link>
+                            <Link className="H_li py-2 fw-bold " to={"Shirts"}><li className='ms-3 mt-3'>Shirts </li></Link>
+                            <Link className="H_li py-2 fw-bold " to={"Jeans"}><li className='ms-3 mt-3'>Jeans </li></Link>
+                            <Link className="H_li py-2 fw-bold " to={"Swimwear"}><li className='ms-3 mt-3'>Swimwear </li></Link>
+                            <Link className="H_li py-2 fw-bold " to={"Sportswear"}><li className='ms-3 mt-3'>Sportswear </li></Link>
+                            <Link className="H_li py-2 fw-bold " to={"Blazers"}><li className='ms-3 mt-3'>Blazers </li></Link>
+                            <Link className="H_li fw-bold   py-2" data-bs-toggle="dropdown" to={"Shoes"}> <li className='ms-3 mt-3'>Shoes </li></Link>
                         </ul>
                     </div>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -94,35 +61,20 @@ export default function Header() {
                     </button>
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0 ">
-                            <li className="nav-item">
-                                <Link className='nav-link active text-white' to="login">login</Link>
+                            <li className="nav-item fw-bold">
+                                <Link className='nav-link  ' to="login">login</Link>
                             </li>
-                            <li className="nav-item">
-                                <Link className='nav-link active text-white' to="register">register</Link>
+                            <li className="nav-item fw-bold">
+                                <Link className='nav-link  ' to="register">register</Link>
                             </li>
                         </ul>
 
-                        <div className="collapse    navbar-collapse" id="navbarSupportedContent">
-
+                        <div className="collapse navbar-collapse" id="navbarSupportedContent">
                             <div className="navbar-nav m-auto py-0">
-                                <Link to={"home"} className="nav-item nav-link active fs-5 fw-bold px-3">Home</Link>
+                                <Link to={"home"} className="nav-item nav-link fs-5 fw-bold px-3">Home</Link>
                                 <Link to={"shop"} className="nav-item nav-link fs-5 fw-bold px-3">Shop</Link>
-                                <div className="dropdown collapse navbar-collapse" id="navbarNavDarkDropdown">
-                                    <ul className="navbar-nav">
-                                        <li className="nav-item dropdown">
-                                            <Link className="nav-link dropdown-toggle px-3 fs-5 fw-bold " to={"cart"} id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                                Pages
-                                            </Link>
-                                            <ul className="dropdown-menu dropdown-menu-dark bg_logo text-dark" aria-labelledby="navbarDarkDropdownMenuLink">
-                                                <li><Link className="dropdown-item text-dark" to={"cart"}>Shopping Cart</Link></li>
-                                                <li><Link className="dropdown-item text-dark" to={"Checkout"}>Checkout</Link></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </div>
                                 <Link to={"Contact"} className="nav-item nav-link fs-5 fw-bold px-3">Contact</Link>
                             </div>
-
                         </div>
                         <div>
                             <Link to="">
@@ -135,9 +87,6 @@ export default function Header() {
                     </div>
                 </div>
             </nav>
-
-
-
 
             {/* <!-- Navbar End --> */}
         </>
