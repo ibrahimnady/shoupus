@@ -2,6 +2,21 @@
     position: relative;
 }
 
+.FB_cart_product h2 {
+    color: black;
+}
+
+.FB_cart_product h2:hover {
+    color             : gold;
+    background-color  : black;
+    padding           : 10px;
+    transition        : all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition   : all 0.5s;
+    -ms-transition    : all 0.5s;
+    -o-transition     : all 0.5s;
+}
+
 .FB_cart_product img {
     opacity            : 1;
     display            : block;
@@ -12,19 +27,19 @@
 }
 
 .FB_overly {
-    transition      : .5s ease;
-    opacity         : 0;
-    position        : absolute;
-    top             : 50%;
-    left            : 50%;
-    transform       : translate(-50%, -50%);
-    -ms-transform   : translate(-50%, -50%);
-    text-align      : center;
-    width           : fit-content;
+    transition   : .5s ease;
+    opacity      : 0;
+    position     : absolute;
+    top          : 50%;
+    left         : 50%;
+    transform    : translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align   : center;
+    width        : fit-content;
 }
 
 .FB_cart_product:hover img {
-    opacity: 0.3;
+    opacity   : 0.3;
     box-shadow: 5px 5px 10px 10px #888888;
 }
 

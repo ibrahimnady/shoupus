@@ -2,6 +2,21 @@
     position: relative;
 }
 
+.DS_cart_product h2 {
+    color: black;
+}
+
+.DS_cart_product h2:hover {
+    color             : gold;
+    background-color  : black;
+    padding           : 10px;
+    transition        : all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition   : all 0.5s;
+    -ms-transition    : all 0.5s;
+    -o-transition     : all 0.5s;
+}
+
 .DS_cart_product img {
     opacity            : 1;
     display            : block;
@@ -45,6 +60,7 @@
 .DS_cart_product:hover .DS_overly {
     opacity: 1;
 }
-.DS_del{
+
+.DS_del {
     text-decoration: line-through;
 }

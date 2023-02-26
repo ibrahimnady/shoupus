@@ -30,11 +30,11 @@ export default function Footer() {
                             <div className="mt-5">
                                 <h2 className=' text-warning'>QUICK SHOP</h2>
                                 <ul>
-                                    <li><Link to="home">home</Link></li>
-                                    <li>shop</li>
-                                    <li>shopping cart</li>
-                                    <li>category</li>
-                                    <li>contact us</li>
+                                    <li><Link className='nav-link' to="home">Home</Link></li>
+                                    <li><Link className='nav-link' to="shop">Shop</Link></li>
+                                    <li><Link className='nav-link' to="cart">Shopping cart</Link></li>
+                                    <li><Link className='nav-link' to="category">Category</Link></li>
+                                    
                                 </ul>
                             </div>
                         </div>
@@ -42,8 +42,9 @@ export default function Footer() {
                             <div className="mt-5">
                                 <h2 className=' text-warning'>MY ACCOUNT</h2>
                                 <ul>
-                                    <li className=' text-white'><Link to="profile">Profile</Link></li>
-                                    <li>liked</li>
+                                    <li><Link className='nav-link' to="profile">Profile</Link></li>
+                                    <li><Link className='nav-link' to="liked">liked</Link></li>
+                                    <li><Link className='nav-link' to="contact">Contact us</Link></li>
                                 </ul>
                             </div>
                         </div>

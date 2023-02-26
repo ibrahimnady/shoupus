@@ -5,7 +5,7 @@ export default function Profile() {
     const [file, setFile] = useState("")
     return (
         <>
-            <div className="container mt-5 ">
+            <div className="container mt-5 mb-5 ">
                 <div className="card p-3 fw-bold">
                     <div className="d-flex flex-row justify-content-center mb-3">
                         <div className="image">

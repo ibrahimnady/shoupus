@@ -1,7 +1,19 @@
 .PR_cart_product {
     position: relative;
 }
-
+.PR_cart_product h2 {
+    color: black;
+}
+.PR_cart_product h2:hover {
+    color             : gold;
+    background-color  : black;
+    padding           : 10px;
+    transition        : all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition   : all 0.5s;
+    -ms-transition    : all 0.5s;
+    -o-transition     : all 0.5s;
+}
 .PR_cart_product img {
     opacity            : 1;
     display            : block;
@@ -20,7 +32,7 @@
     transform       : translate(-50%, -50%);
     -ms-transform   : translate(-50%, -50%);
     text-align      : center;
-    width           : fit-content;
+    width           : 55%;
 }
 
 .PR_cart_product:hover img {
