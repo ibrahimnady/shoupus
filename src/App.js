@@ -12,12 +12,14 @@ import Header from './Components/Header/Header';
 import Shop from './Pages/Shop';
 import Cart from './Pages/Cart';
 import Contact from './Pages/Contact';
+import ScrollToTop from './ScrollToTop';
 
 function App() {
   return (
     <>
       <div className='APP_bg'>
         <Header />
+        <ScrollToTop/>
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='*' element={<Page404 />} />
