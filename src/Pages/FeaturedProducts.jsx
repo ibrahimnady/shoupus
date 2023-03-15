@@ -20,7 +20,7 @@ export default function FeaturedProducts() {
                 <div className="row" >
                     <div className="col-sm-12 col-md-3  mb-5 " >
                         <div className='FB_cart_product'>
-                            <Link to="productdetails">
+                            <Link to="/productdetails">
                                 <img src={Product_1} className="w-100" alt="" />
                             </Link>
                             <div className='text-center FB_overly '>
@@ -32,7 +32,7 @@ export default function FeaturedProducts() {
                                 </Link>
                             </div>
                             <div className='text-center bg-white w-100'>
-                                <Link to="productdetails">
+                                <Link to="/productdetails">
                                     <h2>Name product</h2>
                                 </Link>
                                 <h3>price </h3>
@@ -43,7 +43,7 @@ export default function FeaturedProducts() {
 
                     <div className="col-sm-12 col-md-3  mb-5  ">
                         <div className='FB_cart_product'>
-                            <Link to="productdetails">
+                            <Link to="/productdetails">
                                 <img src={Product_2} className="w-100" alt="" />
                             </Link>
                             <div className='text-center FB_overly '>
@@ -55,7 +55,7 @@ export default function FeaturedProducts() {
                                 </Link>
                             </div>
                             <div className='text-center bg-white w-100'>
-                                <Link to="productdetails">
+                                <Link to="/productdetails">
                                     <h2>Name product</h2>
                                 </Link>
                                 <h3>price </h3>
@@ -66,7 +66,7 @@ export default function FeaturedProducts() {
 
                     <div className="col-sm-12 col-md-3  mb-5  ">
                         <div className='FB_cart_product'>
-                            <Link to="productdetails">
+                            <Link to="/productdetails">
                                 <img src={Product_3} className="w-100" alt="" />
                             </Link>
                             <div className='text-center FB_overly '>
@@ -78,7 +78,7 @@ export default function FeaturedProducts() {
                                 </Link>
                             </div>
                             <div className='text-center bg-white w-100'>
-                                <Link to="productdetails">
+                                <Link to="/productdetails">
                                     <h2>Name product</h2>
                                 </Link>
                                 <h3>price </h3>
@@ -89,7 +89,7 @@ export default function FeaturedProducts() {
 
                     <div className="col-sm-12 col-md-3  mb-5  ">
                         <div className='FB_cart_product'>
-                            <Link to="productdetails">
+                            <Link to="/productdetails">
                                 <img src={Product_4} className="w-100" alt="" />
                             </Link>
                             <div className='text-center FB_overly '>
@@ -101,7 +101,7 @@ export default function FeaturedProducts() {
                                 </Link>
                             </div>
                             <div className='text-center bg-white w-100'>
-                                <Link to="productdetails">
+                                <Link to="/productdetails">
                                     <h2>Name product</h2>
                                 </Link>
                                 <h3>price </h3>
@@ -112,7 +112,7 @@ export default function FeaturedProducts() {
 
                     <div className="col-sm-12 col-md-3  mb-5  ">
                         <div className='FB_cart_product'>
-                            <Link to="productdetails">
+                            <Link to="/productdetails">
                                 <img src={Product_5} className="w-100" alt="" />
                             </Link>
                             <div className='text-center FB_overly '>
@@ -124,7 +124,7 @@ export default function FeaturedProducts() {
                                 </Link>
                             </div>
                             <div className='text-center bg-white w-100'>
-                                <Link to="productdetails">
+                                <Link to="/productdetails">
                                     <h2>Name product</h2>
                                 </Link>
                                 <h3>price </h3>
@@ -135,7 +135,7 @@ export default function FeaturedProducts() {
 
                     <div className="col-sm-12 col-md-3  mb-5  ">
                         <div className='FB_cart_product'>
-                            <Link to="productdetails">
+                            <Link to="/productdetails">
                                 <img src={Product_6} className="w-100" alt="" />
                             </Link>
                             <div className='text-center FB_overly '>
@@ -147,7 +147,7 @@ export default function FeaturedProducts() {
                                 </Link>
                             </div>
                             <div className='text-center bg-white w-100'>
-                                <Link to="productdetails">
+                                <Link to="/productdetails">
                                     <h2>Name product</h2>
                                 </Link>
                                 <h3>price </h3>
@@ -158,7 +158,7 @@ export default function FeaturedProducts() {
 
                     <div className="col-sm-12 col-md-3  mb-5  ">
                         <div className='FB_cart_product'>
-                            <Link to="productdetails">
+                            <Link to="/productdetails">
                                 <img src={Product_7} className="w-100" alt="" />
                             </Link>
                             <div className='text-center FB_overly '>
@@ -170,7 +170,7 @@ export default function FeaturedProducts() {
                                 </Link>
                             </div>
                             <div className='text-center bg-white w-100'>
-                                <Link to="productdetails">
+                                <Link to="/productdetails">
                                     <h2>Name product</h2>
                                 </Link>
                                 <h3>price </h3>
@@ -181,7 +181,7 @@ export default function FeaturedProducts() {
 
                     <div className="col-sm-12 col-md-3  mb-5  ">
                         <div className='FB_cart_product'>
-                            <Link to="productdetails">
+                            <Link to="/productdetails">
                                 <img src={Product_8} className="w-100" alt="" />
                             </Link>
                             <div className='text-center FB_overly '>
@@ -193,7 +193,7 @@ export default function FeaturedProducts() {
                                 </Link>
                             </div>
                             <div className='text-center bg-white w-100'>
-                                <Link to="productdetails">
+                                <Link to="/productdetails">
                                     <h2>Name product</h2>
                                 </Link>
                                 <h3>price </h3>

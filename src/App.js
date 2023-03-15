@@ -13,6 +13,7 @@ import Shop from './Pages/Shop';
 import Cart from './Pages/Cart';
 import Contact from './Pages/Contact';
 import ScrollToTop from './ScrollToTop';
+import DiscountProduct from './Pages/DiscountProduct';
 
 function App() {
   return (
@@ -28,8 +29,7 @@ function App() {
           <Route path='/register' element={<Register />} />
           <Route path='/home' element={<Home />} />
           <Route path='/productdetails' element={<ProductDetails />} />
-          <Route path='/home/productdetails' element={<ProductDetails />} />
-          <Route path='/shop/productdetails' element={<ProductDetails />} />
+          <Route path='/discountProduct' element={<DiscountProduct />} />
           <Route path='/profile' element={<Profile />} />
           <Route path='/shop' element={<Shop />} />
           <Route path='/cart' element={<Cart />} />

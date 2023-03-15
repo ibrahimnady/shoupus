@@ -17,7 +17,7 @@ export default function DiscountProduct() {
                 <div className="row">
                     <div className="col-sm-12 col-md-3  mb-5  ">
                         <div className='DS_cart_product'>
-                            <Link to="productdetails">
+                            <Link to="/productDetails">
                                 <img src={Product_1} className="w-100" alt="" />
                             </Link>
                             <div className='text-center DS_overly_discount '>
@@ -32,7 +32,7 @@ export default function DiscountProduct() {
                                 </Link>
                             </div>
                             <div className='text-center bg-white w-100'>
-                                <Link to="productdetails">
+                                <Link to="/productDetails">
                                     <h2>Name product</h2>
                                 </Link>
                                 <h3>price Before</h3>
@@ -44,7 +44,7 @@ export default function DiscountProduct() {
 
                     <div className="col-sm-12 col-md-3  mb-5  ">
                         <div className='DS_cart_product'>
-                            <Link to="productdetails">
+                            <Link to="/productDetails">
                                 <img src={Product_2} className="w-100" alt="" />
                             </Link>
                             <div className='text-center DS_overly_discount '>
@@ -59,7 +59,7 @@ export default function DiscountProduct() {
                                 </Link>
                             </div>
                             <div className='text-center bg-white w-100'>
-                                <Link to="productdetails">
+                                <Link to="/productDetails">
                                     <h2>Name product</h2>
                                 </Link>
                                 <h3>price Before</h3>
@@ -71,7 +71,7 @@ export default function DiscountProduct() {
 
                     <div className="col-sm-12 col-md-3  mb-5  ">
                         <div className='DS_cart_product'>
-                            <Link to="productdetails">
+                            <Link to="/productDetails">
                                 <img src={Product_3} className="w-100" alt="" />
                             </Link>
                             <div className='text-center DS_overly_discount '>
@@ -86,7 +86,7 @@ export default function DiscountProduct() {
                                 </Link>
                             </div>
                             <div className='text-center bg-white w-100'>
-                                <Link to="productdetails">
+                                <Link to="/productDetails">
                                     <h2>Name product</h2>
                                 </Link>
                                 <h3>price Before</h3>
@@ -98,7 +98,7 @@ export default function DiscountProduct() {
 
                     <div className="col-sm-12 col-md-3  mb-5  ">
                         <div className='DS_cart_product'>
-                            <Link to="productdetails">
+                            <Link to="/productDetails">
                                 <img src={Product_4} className="w-100" alt="" />
                             </Link>
                             <div className='text-center DS_overly_discount '>
@@ -113,7 +113,7 @@ export default function DiscountProduct() {
                                 </Link>
                             </div>
                             <div className='text-center bg-white w-100'>
-                                <Link to="productdetails">
+                                <Link to="/productDetails">
                                     <h2>Name product</h2>
                                 </Link>
                                 <h3>price Before</h3>
@@ -125,7 +125,7 @@ export default function DiscountProduct() {
 
                     <div className="col-sm-12 col-md-3  mb-5  ">
                         <div className='DS_cart_product'>
-                            <Link to="productdetails">
+                            <Link to="/productDetails">
                                 <img src={Product_5} className="w-100" alt="" />
                             </Link>
                             <div className='text-center DS_overly_discount '>
@@ -140,7 +140,7 @@ export default function DiscountProduct() {
                                 </Link>
                             </div>
                             <div className='text-center bg-white w-100'>
-                                <Link to="productdetails">
+                                <Link to="/productDetails">
                                     <h2>Name product</h2>
                                 </Link>
                                 <h3>price Before</h3>
@@ -152,7 +152,7 @@ export default function DiscountProduct() {
 
                     <div className="col-sm-12 col-md-3  mb-5  ">
                         <div className='DS_cart_product'>
-                            <Link to="productdetails">
+                            <Link to="/productDetails">
                                 <img src={Product_6} className="w-100" alt="" />
                             </Link>
                             <div className='text-center DS_overly_discount '>
@@ -167,7 +167,7 @@ export default function DiscountProduct() {
                                 </Link>
                             </div>
                             <div className='text-center bg-white w-100'>
-                                <Link to="productdetails">
+                                <Link to="/productDetails">
                                     <h2>Name product</h2>
                                 </Link>
                                 <h3 >price Before</h3>
@@ -179,7 +179,7 @@ export default function DiscountProduct() {
 
                     <div className="col-sm-12 col-md-3  mb-5  ">
                         <div className='DS_cart_product'>
-                            <Link to="productdetails">
+                            <Link to="/productDetails">
                                 <img src={Product_7} className="w-100" alt="" />
                             </Link>
                             <div className='text-center DS_overly_discount '>
@@ -194,7 +194,7 @@ export default function DiscountProduct() {
                                 </Link>
                             </div>
                             <div className='text-center bg-white w-100'>
-                                <Link to="productdetails">
+                                <Link to="/productDetails">
                                     <h2>Name product</h2>
                                 </Link>
                                 <h3>price Before</h3>
@@ -206,7 +206,7 @@ export default function DiscountProduct() {
 
                     <div className="col-sm-12 col-md-3  mb-5  ">
                         <div className='DS_cart_product'>
-                            <Link to="productdetails">
+                            <Link to="/productDetails">
                                 <img src={Product_8} className="w-100" alt="" />
                             </Link>
                             <div className='text-center DS_overly_discount '>
@@ -221,7 +221,7 @@ export default function DiscountProduct() {
                                 </Link>
                             </div>
                             <div className='text-center bg-white w-100'>
-                                <Link to="productdetails">
+                                <Link to="/productDetails">
                                     <h2>Name product</h2>
                                 </Link>
                                 <h3>price Before</h3>
